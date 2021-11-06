@@ -1,0 +1,59 @@
+#welcome {
+  margin: 5em 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+
+#welcome p {
+  width: 60%;
+  opacity: 0.7;
+  font-weight: 200;
+}
+
+#log-in-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2em;
+}
+
+#log-in-form input {
+  border: none;
+  padding: 0.6em 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5em;
+  transition: border-color 0.1s ease-in-out;
+}
+
+#log-in-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#log-in-form input:focus {
+  border-color: var(--main-color);
+}
+
+#log-in-form input[type="submit"] {
+  border-bottom: none;
+  background-color: var(--main-color);
+  cursor: pointer;
+  padding: 1em 0;
+  border-radius: 0.2em;
+}
+
+#log-in div {
+  text-align: center;
+}
+
+#log-in a {
+  margin: 0 0.3em;
+  color: rgba(0, 0, 0, 0.4);
+}
