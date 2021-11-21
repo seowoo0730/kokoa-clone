@@ -1,7 +1,9 @@
 @import "reset.css";
-@import "status-bar.css";
-@import "login.css";
 @import "variables.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "screens/login.css";
+
 :root {
   font-family: sans-serif;
 }

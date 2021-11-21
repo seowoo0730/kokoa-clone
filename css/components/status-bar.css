@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
   padding: 0.2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .status-bar i {
