@@ -7,10 +7,12 @@
 @import "components/notification.css";
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 :root {
   font-family: sans-serif;
   --horizontal-space: 1.7rem;
+  --gray-border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 main {
