@@ -4,10 +4,15 @@
 @import "components/nav-bar.css";
 @import "components/header.css";
 @import "components/user.css";
+@import "components/notification.css";
 @import "screens/login.css";
 @import "screens/friends.css";
 
 :root {
   font-family: sans-serif;
   --horizontal-space: 1.7rem;
+}
+
+main {
+  padding: 0 var(--horizontal-space);
 }

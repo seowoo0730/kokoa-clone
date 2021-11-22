@@ -3,6 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 1em;
 }
 
 h1 {

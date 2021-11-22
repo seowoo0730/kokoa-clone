@@ -3,13 +3,10 @@
   display: block;
   background: #fafafa;
   padding: 1em 0;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
+  margin-top: -1em;
 }
 
 #friends-display i {
   opacity: 0.3;
-}
-
-main {
-  padding: 0 var(--horizontal-space);
 }
