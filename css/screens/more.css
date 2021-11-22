@@ -1,0 +1,41 @@
+.more-screen .find-icons {
+  margin-top: 2em;
+  border: none;
+}
+
+.suggestions {
+  margin-top: 3em;
+  border-top: var(--gray-border);
+  padding-top: 2em;
+}
+
+.suggestions h4 {
+  margin-bottom: 2em;
+}
+
+.suggestions .icons {
+  display: flex;
+}
+
+.suggestions .icon {
+  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions .img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1em;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.8em;
+}
+
+.suggestions i {
+  font-size: 2rem;
+  color: white;
+}
