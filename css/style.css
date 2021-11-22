@@ -2,9 +2,12 @@
 @import "variables.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
-@import "screens/login.css";
 @import "components/header.css";
+@import "components/user.css";
+@import "screens/login.css";
+@import "screens/friends.css";
 
 :root {
   font-family: sans-serif;
+  --horizontal-space: 1.7rem;
 }

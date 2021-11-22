@@ -1,0 +1,52 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component-column:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.user-component .avatar {
+  border-radius: 40%;
+  margin-right: 1em;
+  object-fit: cover;
+}
+
+.user-component h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.user-component h6 {
+  margin-top: 0.5em;
+  opacity: 0.5;
+}
+
+.user-component .avatar-xl {
+  width: 5rem;
+  height: 5rem;
+}
+
+.user-component .avatar-sm {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-sm ~ .text h4 {
+  font-weight: 400;
+}
+
+.channel {
+  margin: 1.5em 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component-column {
+  color: rgba(0, 0, 0, 0.5);
+}
