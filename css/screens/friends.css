@@ -10,3 +10,26 @@
 #friends-display i {
   opacity: 0.3;
 }
+
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background: yellow;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+}

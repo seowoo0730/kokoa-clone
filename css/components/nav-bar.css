@@ -17,3 +17,15 @@ nav {
   color: #2e363e;
   position: relative;
 }
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: none;
+  }
+}
