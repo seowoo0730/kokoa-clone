@@ -1,0 +1,21 @@
+.settings {
+  padding: 1em 0;
+  border-bottom: var(--gray-border);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.settings i {
+  margin-right: 1em;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.settings:nth-child(3) {
+  justify-content: space-between;
+}
+
+.settings:nth-child(3) > span:nth-child(2) {
+  opacity: 0.3;
+}
